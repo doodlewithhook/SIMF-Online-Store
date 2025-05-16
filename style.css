@@ -1,100 +1,53 @@
-/* Basic Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
   color: #333;
-  line-height: 1.6;
-  padding: 20px;
-  max-width: 900px;
-  margin: auto;
+  margin: 0;
+  padding: 0;
 }
 
 header {
+  background-color: #ffdede;
+  color: #000;
   text-align: center;
-  margin-bottom: 40px;
+  padding: 30px 10px;
 }
 
-header h1 {
-  font-size: 2.5rem;
-  color: #2c3e50;
+header span {
+  color: #e91e63;
+  font-weight: bold;
 }
 
-section {
-  margin-bottom: 40px;
-  background: white;
+.categories, .products, .contact {
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+  margin: 20px;
+  background-color: #fff3f3;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 h2 {
-  color: #2980b9;
-  margin-bottom: 15px;
-  border-bottom: 2px solid #2980b9;
+  border-bottom: 2px solid #e91e63;
   padding-bottom: 5px;
 }
 
-.categories ul {
-  list-style-type: disc;
-  margin-left: 20px;
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.product-list {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
+ul li {
+  padding: 8px 0;
 }
 
-.product-card {
-  background: #ecf0f1;
-  padding: 15px;
-  border-radius: 6px;
-  width: 250px;
-  box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
-  transition: transform 0.2s ease;
-}
-
-.product-card:hover {
-  transform: translateY(-5px);
-}
-
-.product-card h3 {
-  margin-bottom: 10px;
-  color: #34495e;
-}
-
-.contact a {
-  color: #2980b9;
-  text-decoration: none;
-}
-
-.contact a:hover {
-  text-decoration: underline;
+.product {
+  margin-bottom: 15px;
 }
 
 footer {
+  background-color: #e91e63;
+  color: white;
   text-align: center;
-  font-size: 0.9rem;
-  color: #999;
-  margin-top: 50px;
-  padding: 10px 0;
-  border-top: 1px solid #ddd;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-  .product-list {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .product-card {
-    width: 100%;
-  }
+  padding: 10px;
 }
