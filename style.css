@@ -1,53 +1,40 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #fdfdfd;
-  color: #333;
   margin: 0;
-  padding: 0;
+  background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('https://images.unsplash.com/photo-1581090700227-1e8d02d99b9b') no-repeat center center fixed;
+  background-size: cover;
 }
 
-header {
-  background-color: #ffdede;
-  color: #000;
+header.hero {
+  background-color: #222;
+  color: white;
   text-align: center;
-  padding: 30px 10px;
+  padding: 1rem;
 }
 
-header span {
-  color: #e91e63;
-  font-weight: bold;
+.logo {
+  max-height: 80px;
 }
 
 .categories, .products, .contact {
-  padding: 20px;
-  margin: 20px;
-  background-color: #fff3f3;
+  background-color: white;
+  margin: 1rem;
+  padding: 1rem;
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-h2 {
-  border-bottom: 2px solid #e91e63;
-  padding-bottom: 5px;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-ul li {
-  padding: 8px 0;
 }
 
 .product {
-  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  background-color: #f9f9f9;
 }
 
 footer {
-  background-color: #e91e63;
-  color: white;
   text-align: center;
-  padding: 10px;
+  padding: 1rem;
+  background-color: #222;
+  color: white;
 }
