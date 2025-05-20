@@ -1,40 +1,32 @@
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('https://images.unsplash.com/photo-1581090700227-1e8d02d99b9b') no-repeat center center fixed;
-  background-size: cover;
+  padding: 0;
 }
 
-header.hero {
-  background-color: #222;
+header {
+  background-color: #111;
   color: white;
+  padding: 10px;
   text-align: center;
-  padding: 1rem;
 }
 
-.logo {
-  max-height: 80px;
+main {
+  padding: 20px;
 }
 
-.categories, .products, .contact {
-  background-color: white;
-  margin: 1rem;
-  padding: 1rem;
-  border-radius: 10px;
+h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 .product {
-  border: 1px solid #ccc;
-  padding: 0.5rem;
-  margin-top: 0.5rem;
+  background-color: #f4f4f4;
+  padding: 15px;
+  margin: 10px 0;
   border-radius: 5px;
-  background-color: #f9f9f9;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #222;
-  color: white;
 }
