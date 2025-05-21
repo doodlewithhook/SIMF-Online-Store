@@ -2,9 +2,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
 }
 
 .product-card {
@@ -15,6 +14,7 @@ body {
     padding: 15px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 20px;
 }
 
 .product-image {
