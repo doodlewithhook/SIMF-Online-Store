@@ -1,17 +1,75 @@
 <!DOCTYPE html>
-<html lang="ur">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Product Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .product-card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      width: 300px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .product-image {
+      width: 100%;
+      height: auto;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 15px;
+    }
+
+    .product-name {
+      font-size: 1.5em;
+      margin: 0;
+    }
+
+    .product-price {
+      color: #888;
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+
+    .product-description {
+      font-size: 1em;
+      margin: 10px 0;
+    }
+
+    .add-to-cart {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      font-size: 1em;
+      border-radius: 5px;
+    }
+
+    .add-to-cart:hover {
+      background-color: #218838;
+    }
+  </style>
 </head>
 <body>
-    <div class="product-card">
-        <img src="product-image.jpg" alt="Product Name" class="product-image">
-        <h1 class="product-name">Product Name</h1>
-        <p class="product-price">Rs. 1,999</p>
-        <p class="product-description">Yahan product ki tafseelat likhi jayengi. Yeh product bohot hi behtareen hai aur aapko pasand ayega.</p>
-        <button class="add-to-cart">Add to Cart</button>
-    </div>
+  <div class="product-card">
+    <img src="images/sample-product.jpg" alt="Product Image" class="product-image" />
+    <h2 class="product-name">Crochet Gajra</h2>
+    <p class="product-price">Rs. 500</p>
+    <p class="product-description">Beautiful handmade crochet gajra perfect for any occasion.</p>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
 </body>
 </html>
