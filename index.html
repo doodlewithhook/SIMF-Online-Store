@@ -1,192 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>SIMF Online Store</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fff;
-      color: #4a2e1d;
-    }
-
-    nav {
-      background-color: white;
-      padding: 15px 30px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 25px;
-      padding: 0;
-      margin: 0;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: #4a2e1d;
-      font-weight: bold;
-    }
-
-    .banner {
-      background-image: url('images/banner.jpg'); /* Replace with your banner image path */
-      background-size: cover;
-      background-position: center;
-      padding: 80px 20px;
-      text-align: center;
-      color: white;
-    }
-
-    .banner h1 {
-      font-size: 2.5em;
-      margin: 0;
-    }
-
-    .banner p {
-      margin-top: 10px;
-      font-size: 1.1em;
-    }
-
-    .section {
-      text-align: center;
-      padding: 40px 20px;
-    }
-
-    .section h2 {
-      font-size: 2em;
-      margin-bottom: 20px;
-      color: #4a2e1d;
-    }
-
-    .categories, .products {
-      display: flex;
-      justify-content: center;
-      gap: 40px;
-      flex-wrap: wrap;
-    }
-
-    .category-item, .product-card {
-      text-align: center;
-      max-width: 200px;
-    }
-
-    .category-item i, .contact-icon i {
-      font-size: 30px;
-      margin-bottom: 10px;
-      color: #4a2e1d;
-    }
-
-    .product-card img {
-      width: 100%;
-      border-radius: 5px;
-    }
-
-    .product-card h4 {
-      margin: 10px 0 5px;
-    }
-
-    .product-card p {
-      margin: 0;
-      color: #666;
-    }
-
-    .contact {
-      text-align: center;
-      padding: 40px 20px;
-      border-top: 1px solid #ddd;
-    }
-
-    .contact-icon {
-      margin-bottom: 10px;
-      font-size: 1.5em;
-    }
-
-    @media (max-width: 600px) {
-      nav ul {
-        flex-direction: column;
-        align-items: center;
-      }
-
-      .categories, .products {
-        flex-direction: column;
-        align-items: center;
-      }
-    }
-  </style>
-
-  <!-- Font Awesome CDN for icons -->
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <nav>
-    <div><strong>SIMF STORE</strong></div>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Categories</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-
-  <div class="banner">
-    <h1>SIMF ONLINE STORE</h1>
-    <p>By @M.shayan09</p>
+  <!-- Logo -->
+  <div style="text-align:center; margin-bottom: 20px;">
+    <img src="images/Logo.jpeg" alt="SIMF Logo" width="150">
   </div>
 
-  <div class="section">
-    <h2>Categories</h2>
-    <div class="categories">
-      <div class="category-item">
-        <i class="fas fa-yarn"></i>
-        <p>Handy Craft Items</p>
-      </div>
-      <div class="category-item">
-        <i class="fas fa-puzzle-piece"></i>
-        <p>Kids Toys</p>
-      </div>
-      <div class="category-item">
-        <i class="fas fa-ring"></i>
-        <p>jewelry and Hair Accessories</p>
-      </div>
-    </div>
-  </div>
+  <!-- Heading -->
+  <h1 style="text-align: center;">SIMF Online Store</h1>
 
-  <div class="section">
-    <h2>Sample Products</h2>
-    <div class="products">
-      <div class="product-card">
-        <img src="images/crochet.jpg" alt="Crochet Gajra" />
-        <h4>Crochet Gajra</h4>
-        <p>Rs. 500</p>
-      </div>
-      <div class="product-card">
-        <img src="images/lcd-tab.jpg" alt="LCD Panel Tab" />
-        <h4>LCD Panel Tab</h4>
-        <p>Rs. 500</p>
-      </div>
-      <div class="product-card">
-        <img src="images/tictac.jpg" alt="Tic Tac Pins" />
-        <h4>Tic Tac Pins Pack (3)</h4>
-        <p>Rs. 150</p>
-      </div>
-    </div>
-  </div>
+  <!-- Categories -->
+  <h2>Categories</h2>
+  <ul>
+    <li>Handy Craft Items</li>
+    <li>Kids Toys</li>
+    <li>Jewellery and Hair Accessories</li>
+  </ul>
 
-  <div class="contact">
-    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
-    <p>doodlewithhook@gmail.com</p>
+  <!-- Sample Product Card -->
+  <div class="product-card">
+    <img class="product-image" src="images/sample-product.jpg" alt="Product Image">
+    <h2 class="product-name">Product Name</h2>
+    <p class="product-price">Rs. 1,999</p>
+    <p class="product-description">
+      Yahan product ki tafseelat likhi jayengi. Yeh product bohot hi behtareen hai aur aapko pasand ayega.
+    </p>
+    <button class="add-to-cart">Add to Cart</button>
   </div>
 
 </body>
