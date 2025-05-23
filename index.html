@@ -3,40 +3,36 @@
 <head>
   <meta charset="UTF-8" />
   <title>SIMF Online Store</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body class="bg-gray-100 font-sans">
+<body>
 
-  <!-- Header -->
-  <header class="bg-white shadow p-4 flex flex-col items-center">
-    <img src="images/simf-logo.jpeg" alt="SIMF Logo" class="w-32 mb-2">
-    <h1 class="text-2xl font-bold text-gray-800">SIMF Online Store</h1>
-  </header>
+  <!-- Logo -->
+  <div class="logo">
+    <img src="images/simf-logo.jpeg" alt="SIMF Logo" width="150">
+  </div>
+
+  <!-- Title -->
+  <h1 class="store-title">SIMF Online Store</h1>
 
   <!-- Categories -->
-  <section class="p-6">
-    <h2 class="text-xl font-semibold text-gray-700 mb-4">Categories</h2>
-    <ul class="list-disc list-inside space-y-1 text-gray-600">
-      <li>Handy Craft Items</li>
-      <li>Kids Toys</li>
-      <li>Jewellery and Hair Accessories</li>
-    </ul>
-  </section>
+  <h2>Categories</h2>
+  <ul class="category-list">
+    <li>Handy Craft Items</li>
+    <li>Kids Toys</li>
+    <li>Jewellery and Hair Accessories</li>
+  </ul>
 
   <!-- Product Card -->
-  <section class="p-6">
-    <div class="bg-white rounded-lg shadow-md p-4 max-w-md mx-auto">
-      <img src="images/sample-product.jpg" alt="Product Image" class="w-full h-60 object-cover rounded">
-      <h2 class="text-lg font-semibold text-gray-800 mt-4">Product Name</h2>
-      <p class="text-pink-600 font-bold mt-1">Rs. 1,999</p>
-      <p class="text-gray-600 mt-2">
-        Yahan product ki tafseelat likhi jayengi. Yeh product bohot hi behtareen hai aur aapko pasand ayega.
-      </p>
-      <button class="mt-4 bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600 transition">Add to Cart</button>
-    </div>
-  </section>
+  <div class="product-card">
+    <img class="product-image" src="images/Pretty-in-Pink-Set.jpg" alt="Pretty in Pink Set" />
+    <h2 class="product-name">Pretty in Pink Set</h2>
+    <p class="product-price">Rs. 1,999</p>
+    <p class="product-description">
+      This is a beautiful pink jewelry and accessory set. Stylish, elegant, and perfect for special occasions.
+    </p>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
 
 </body>
 </html>
