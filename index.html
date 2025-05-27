@@ -2,37 +2,92 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SIMF Online Store</title>
-  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
 </head>
-<body>
+<body class="bg-white text-[#5d3b1f]">
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-4 shadow-md">
+    <div class="text-xl font-bold">SIMF</div>
+    <ul class="flex space-x-6 font-semibold">
+      <li><a href="#" class="hover:underline">Home</a></li>
+      <li><a href="#" class="hover:underline">Categories</a></li>
+      <li><a href="#" class="hover:underline">Products</a></li>
+      <li><a href="#" class="hover:underline">Contact</a></li>
+    </ul>
+  </nav>
 
-  <!-- Logo -->
-  <div class="logo">
-    <img src="images/simf-logo.jpeg" alt="SIMF Logo" width="150">
+  <!-- Banner -->
+  <div class="w-full">
+    <img src="images/banner.jpg" alt="Banner" class="w-full h-60 object-cover">
+    <div class="text-center -mt-20 text-white text-4xl font-bold drop-shadow-lg">SIMF ONLINE STORE</div>
+    <div class="text-center text-white text-lg mt-2 drop-shadow-sm">By @M.shayan09</div>
   </div>
-
-  <!-- Title -->
-  <h1 class="store-title">SIMF Online Store</h1>
 
   <!-- Categories -->
-  <h2>Categories</h2>
-  <ul class="category-list">
-    <li>Handy Craft Items</li>
-    <li>Kids Toys</li>
-    <li>Jewellery and Hair Accessories</li>
-  </ul>
+  <section class="py-12 text-center">
+    <h2 class="text-3xl font-bold mb-6">Categories</h2>
+    <div class="flex flex-col md:flex-row justify-center gap-12 text-lg">
+      <div>
+        <img src="images/yarn-icon.png" alt="Handy Craft" class="mx-auto w-12 h-12 mb-2"/>
+        <p>Handy Craft Items</p>
+      </div>
+      <div>
+        <img src="images/toy-icon.png" alt="Kids Toys" class="mx-auto w-12 h-12 mb-2"/>
+        <p>Kids Toys</p>
+      </div>
+      <div>
+        <img src="images/jewelry-icon.png" alt="Accessories" class="mx-auto w-12 h-12 mb-2"/>
+        <p>Jewelers and Hair Accessories</p>
+      </div>
+    </div>
+  </section>
 
-  <!-- Product Card -->
-  <div class="product-card">
-    <img class="product-image" src="images/Pretty-in-Pink-Set.jpg" alt="Pretty in Pink Set" />
-    <h2 class="product-name">Pretty in Pink Set</h2>
-    <p class="product-price">Rs. 1,999</p>
-    <p class="product-description">
-      This is a beautiful pink jewelry and accessory set. Stylish, elegant, and perfect for special occasions.
-    </p>
-    <button class="add-to-cart">Add to Cart</button>
-  </div>
+  <!-- Sample Products -->
+  <section class="py-12 text-center">
+    <h2 class="text-3xl font-bold mb-8">Sample Products</h2>
+    <div class="grid md:grid-cols-3 gap-8 px-6">
+      <div class="border rounded-lg shadow p-4">
+        <img src="images/crochet-gajra.jpg" class="w-full h-48 object-cover mb-4" />
+        <h3 class="font-semibold text-lg">Crochet Gajra</h3>
+        <p>Rs. 500</p>
+      </div>
+      <div class="border rounded-lg shadow p-4">
+        <img src="images/lcd-tab.jpg" class="w-full h-48 object-contain mb-4" />
+        <h3 class="font-semibold text-lg">LCD Panel Tab</h3>
+        <p>Rs. 500</p>
+      </div>
+      <div class="border rounded-lg shadow p-4">
+        <img src="images/tic-tac-pins.jpg" class="w-full h-48 object-cover mb-4" />
+        <h3 class="font-semibold text-lg">Tic Tac Pins Pack (3)</h3>
+        <p>Rs. 150</p>
+      </div>
+    </div>
+  </section>
 
+  <!-- Contact -->
+  <section class="py-12 text-center">
+    <h2 class="text-3xl font-bold mb-4">Contact</h2>
+    <div class="flex justify-center items-center gap-2 text-lg">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+           viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M16 12H8m0 0l4-4m-4 4l4 4m5 4H7a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v12a2 2 0 01-2 2z"/>
+      </svg>
+      <a href="mailto:doodlewithhook@gmail.com">doodlewithhook@gmail.com</a>
+    </div>
+  </section>
+
+  <footer class="text-center text-sm text-gray-500 py-4">
+    &copy; 2025 SIMF Online Store
+  </footer>
 </body>
 </html>
