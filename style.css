@@ -7,9 +7,39 @@ body {
   padding: 20px;
 }
 
-.logo img {
-  width: 150px;
-  margin-bottom: 10px;
+/* Banner Styles */
+.banner-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 30px;
+}
+
+.banner-image {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.banner-text h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.banner-text p {
+  font-size: 1.2em;
+  margin: 5px 0 0;
 }
 
 .store-title {
@@ -22,11 +52,14 @@ body {
   list-style-type: none;
   padding: 0;
   margin-bottom: 30px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .category-list li {
   font-size: 1.2em;
-  margin: 5px 0;
 }
 
 .product-card {
