@@ -7,7 +7,7 @@ const products = {
   name: 'Handcrafted Scarf Pins',
   price: 500,
   priceNote: 'Pack of 5 — PKR 500 | Single — PKR 200',
-  image: 'https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
+  image: 'src="images/Handcrafted-Scarf-Pins.jpg",
   description: 'Elegant and colorful handcrafted scarf pins designed to beautifully secure your hijab or dupatta. Each pin is crafted with love using floral clay designs and decorative beads. A perfect blend of fashion and tradition!',
   features: [
     'Handcrafted floral designs',
