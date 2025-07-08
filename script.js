@@ -190,7 +190,7 @@ function showProduct(productId) {
   document.getElementById('product-image').src = product.image;
   document.getElementById('product-image').alt = product.name;
   document.getElementById('product-title').textContent = product.name;
-  document.getElementById('product-price').textContent = `PKR ${product.price.toLocaleString()}`;
+  document.getElementById('product-price').textContent = product.priceNote || `PKR ${product.price.toLocaleString()}`;
   document.getElementById('product-description').textContent = product.description;
   
   // Load features
