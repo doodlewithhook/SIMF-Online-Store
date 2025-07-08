@@ -4,16 +4,17 @@ const products = {
   handcraft: [
     {
       id: 'hc1',
-      name: 'Hand-woven Basket Set',
-      price: 2500,
+      name: 'Handcrafted Scarf Pins',
+      price: 500 (pack of 5),
+      price: 200 (Each Pin)
       image: 'https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
-      description: 'Beautiful hand-woven baskets made from natural materials. Perfect for storage and home decoration. Each basket is uniquely crafted by skilled artisans.',
+      description: 'Elegant and colorful handcrafted scarf pins designed to beautifully secure your hijab or dupatta. Each pin is crafted with love using floral clay designs and decorative beads. A perfect blend of fashion and tradition!',
       features: [
-        'Made from natural bamboo and rattan',
-        'Set of 3 different sizes',
-        'Eco-friendly and sustainable',
-        'Perfect for home organization',
-        'Handcrafted by local artisans'
+        '🌺 Handcrafted floral designs',
+        '💐 Pack of 5 pins in assorted colors',
+        '✨ Available individually or as a set',
+        '🧕 Perfect for hijabs, scarves, and dupattas',
+        '🎁 Great gift idea for ladies and girls'
       ]
     },
     {
