@@ -10,11 +10,11 @@ const products = {
       image: 'https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400',
       description: 'Elegant and colorful handcrafted scarf pins designed to beautifully secure your hijab or dupatta. Each pin is crafted with love using floral clay designs and decorative beads. A perfect blend of fashion and tradition!',
       features: [
-        '🌺 Handcrafted floral designs',
-        '💐 Pack of 5 pins in assorted colors',
-        '✨ Available individually or as a set',
-        '🧕 Perfect for hijabs, scarves, and dupattas',
-        '🎁 Great gift idea for ladies and girls'
+        'Handcrafted floral designs',
+        'Pack of 5 pins in assorted colors',
+        'Available individually or as a set',
+        'Perfect for hijabs, scarves, and dupattas',
+        'Great gift idea for ladies and girls'
       ]
     },
     {
